@@ -30,11 +30,9 @@ h3{
     padding: 20px;
 }
 section > ul {
+    text-align: inherit;
     margin: auto;
-    list-style-position: outside;
-}
-li{
-    list-style:none;
+    list-style: none;
 }
 #about {
     border: 2px solid white;
@@ -42,7 +40,7 @@ li{
     border-radius: 8px;
     max-width: fit-content;
     margin: 50px auto 60px auto;
-    padding: 15px;
+    padding: 10px;
     max-width: 700px;
 }
 #about > p {
@@ -50,9 +48,6 @@ li{
     text-indent: 50px;
     padding: 10px;
     text-align: justify;
-}
-#tribute-info {
-    text-align: center;
 }
 #img-div {
     background-color: rgb(255, 179, 0);
@@ -90,11 +85,20 @@ p {
     padding: 20px;
 }
 footer {
+    color: rgb(184, 184, 184);
     text-align: center;
     padding: 30px;
     background-color: rgb(63, 15, 11);;
 }
-footer ul li{
+li {
+    list-style: none;
+}
+li > a{
+    text-decoration: none;
     display: inline;
     margin-right: 40px;
+    color: rgb(184, 184, 184);
+}
+li > a:hover{
+    color: blanchedalmond;
 }
